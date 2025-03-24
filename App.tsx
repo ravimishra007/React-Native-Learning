@@ -24,6 +24,7 @@ import Home from './components/Home';
 import Login from './components/Login';
 import CustomStatusBar from './components/CustomStatusBar';
 import FetchData from './components/FetchData';
+import SettingsScreen from './components/Settings';
 // import MyWebComponent from './components/WebView';
 // import WebView from 'react-native-webview';
 // import FlatListComponent from './components/FlatList';
@@ -144,11 +145,5 @@ const ProfileScreen = () => {
   );
 };
 
-const SettingsScreen = () => {
-  return (
-    <View style={{flex: 1, justifyContent: 'center', alignItems: 'center'}}>
-      <Text>Settings</Text>
-    </View>
-  );
-};
+
 export default App;
